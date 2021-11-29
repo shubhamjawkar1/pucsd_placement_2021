@@ -11,6 +11,6 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    int ans= fibo(n);
-    printf("%d",ans);
+    long ans= fibo(n);
+    printf("%ld",ans);
 }
