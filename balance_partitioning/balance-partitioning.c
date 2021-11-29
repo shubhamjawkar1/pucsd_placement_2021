@@ -26,5 +26,7 @@ void balance(int n)
 }
 int main()
 {
- balance(10);
+    int n;
+    scanf("%d",&n);
+ balance(n);
 }
