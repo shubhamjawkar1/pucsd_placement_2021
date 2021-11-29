@@ -2,10 +2,10 @@
 
 void balance(int n)
 {
-    int array[n],part1,part2;
+    int array[n],part1=0,part2=0;
+     int partition=6;               //n/2;
     for (int i = 0; i < n; i++)
     {
-        int partition=6;               //n/2;
         array[i]=((2*i)+4);
         if (i<partition)
         {
@@ -19,7 +19,7 @@ void balance(int n)
         
     }
 
-    printf("%d %d %d ",part2-part1);
+    printf("%d  ",(part2-part1)+1);
 
     
 
